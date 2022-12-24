@@ -241,3 +241,39 @@ li .fa-jet-fighter {
 		display: none;
 	}
 }
+
+/* || Home Page Media Queries */
+
+
+@media only screen and (max-width: 992px) {
+
+	#map {
+		width: 80%;
+		-ms-transform: scale(0.80);
+
+
+    #alignment h1,
+    #alignment h2,
+#alignment p {
+  width: 80%;
+	margin: 0 auto;
+}
+
+	}
+}
+
+
+@media only screen and (max-width: 576px) {
+
+	#map {
+		width: 100%;
+		-ms-transform: scale(0.60);
+	}
+
+  #alignment h1,
+#alignment p {
+  width: 90%;
+	margin: 0 auto;
+}
+
+}
