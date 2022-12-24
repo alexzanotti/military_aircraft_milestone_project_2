@@ -141,3 +141,46 @@ li .fa-jet-fighter {
 .form-check-label {
 	color: rgba(255, 255, 255, 0.55);
 }
+
+/* || Footer */
+#footerContainer h2,
+#footerContainer p {
+	color: rgb(255, 255, 255, 0.55);
+}
+
+#siteLinks h2,
+#footerAbout h2 {
+	text-align: center;
+}
+
+#siteLinks ul {
+	list-style-type: none;
+}
+
+#siteLinks li {
+	display: inline;
+}
+
+#footerContainer {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px 10px;
+	background-color: rgb(33, 37, 41);
+	overflow: hidden;
+}
+
+.fa-house,
+.fa-jet-fighter,
+.fa-pen,
+.fa-envelope {
+	font-size: 2rem;
+	margin: 20px;
+	color: #ffffff;
+}
+
+.fa-house:hover,
+.fa-jet-fighter:hover,
+.fa-pen:hover,
+.fa-envelope:hover {
+	color: #30D158;
+}
