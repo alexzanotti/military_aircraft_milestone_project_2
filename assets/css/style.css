@@ -207,3 +207,27 @@ li .fa-jet-fighter {
 #alignment p {
   padding-bottom: 20px;
 }
+
+
+
+
+
+/* || General Media Queries */
+
+@media only screen and (max-width: 992px) {
+
+	.imageCarousel {
+		width: 60vw;
+		height: 40vh;
+
+	}
+}
+
+@media only screen and (max-width: 576px) {
+
+	.imageCarousel {
+		width: 80vw;
+		height: 40vh;
+
+	}
+}
