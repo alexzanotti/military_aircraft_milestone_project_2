@@ -250,16 +250,16 @@ li .fa-jet-fighter {
 	#map {
 		width: 80%;
 		-ms-transform: scale(0.80);
-
+	}
 
     #alignment h1,
     #alignment h2,
-#alignment p {
-  width: 80%;
+	#alignment p {
+  	width: 80%;
 	margin: 0 auto;
 }
 
-	}
+	
 }
 
 
@@ -270,10 +270,10 @@ li .fa-jet-fighter {
 		-ms-transform: scale(0.60);
 	}
 
-  #alignment h1,
-#alignment p {
-  width: 90%;
-	margin: 0 auto;
-}
+	#alignment h1,
+	#alignment p {
+		width: 90%;
+		margin: 0 auto;
+	}
 
 }
