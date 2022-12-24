@@ -231,3 +231,13 @@ li .fa-jet-fighter {
 
 	}
 }
+
+/* || Header Media Queries */
+
+
+@media only screen and (max-width: 576px) {
+
+	.form-check-label {
+		display: none;
+	}
+}
