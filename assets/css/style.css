@@ -184,3 +184,26 @@ li .fa-jet-fighter {
 .fa-envelope:hover {
 	color: #30D158;
 }
+
+/* || Home Page */
+
+#map {
+	width: 60%;
+	height: 400px;
+	margin: 20px auto;
+}
+
+#alignment h1,
+#alignment h1,
+#alignment p {
+  width: 60%;
+	margin: 0 auto;
+}
+
+#alignment h1 {
+  padding: 25px;
+}
+
+#alignment p {
+  padding-bottom: 20px;
+}
