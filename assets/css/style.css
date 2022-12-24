@@ -124,3 +124,20 @@ li .fa-jet-fighter {
 	background-color: rgba(10, 10, 10, .15);
 	color: rgba(260, 260, 260, .5);
 }
+
+/* || Header */
+
+/* Dark mode background color & text color change */
+.darkMode {
+	background-color: black;
+	color: #30D158;
+}
+
+.form-switch .form-check-input:checked {
+	background-color: #30D158;
+	border-color: #30D158;
+}
+
+.form-check-label {
+	color: rgba(255, 255, 255, 0.55);
+}
