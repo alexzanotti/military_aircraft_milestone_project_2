@@ -1,0 +1,126 @@
+/* || Typography */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Chivo+Mono:wght@100&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald&family=Quantico&display=swap');
+
+li,
+label {
+	font-family: 'Chivo Mono', monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Quantico', sans-serif;
+}
+
+p {
+	font-family: 'Barlow', sans-serif;
+}
+
+
+/* || General styles */
+
+* {
+	box-sizing: border-box
+}
+
+body {
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+}
+
+/* fontawesome fighter icon list item */
+li .fa-jet-fighter {
+	margin-top: 10px;
+}
+
+/* Body class standard styling across all pages */
+.body {
+	background-color: #C8CCCE;
+	color: black;
+	text-align: center;
+}
+
+/* Image Gallery Styling */
+.imageCarousel {
+	width: 60vw;
+	height: 60vh;
+	margin: auto;
+	position: relative;
+}
+
+.imagecarousel>ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+.slide>img {
+	object-position: center;
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: contain;
+}
+
+.slide[data-active] {
+	z-index: 1;
+	opacity: 1;
+}
+
+.slide {
+	transition: 200ms;
+	opacity: 0;
+	position: absolute;
+	inset: 0;
+}
+
+.carousel-button.next {
+	right: 0;
+}
+
+.carousel-button.prev {
+	left: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+	color: #FFFFFF;
+	background-color: rgba(0, 0, 0, .2);
+	outline: 1px solid #000000;
+}
+
+.carousel-button {
+	cursor: pointer;
+	position: absolute;
+	background: none;
+	border: none;
+	width: auto;
+	border-radius: 0 3px 3px 0;
+	font-size: 5em;
+	z-index: 2;
+	color: white;
+	font-weight: bold;
+	margin-top: -22px;
+	font-size: 18px;
+	transition: 0.6s ease;
+	transform: translateY(-50%);
+	top: 50%;
+	user-select: none;
+	padding: 16px;
+	background-color: rgba(10, 10, 10, .15);
+	color: rgba(260, 260, 260, .5);
+}
