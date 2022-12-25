@@ -122,3 +122,25 @@ document.getElementById("eurofighterTyphoonRange").innerHTML = 'Range: ' + eurof
 document.getElementById("eurofighterTyphoonStealth").innerHTML = 'Stealth: ' + eurofighterTyphoon.stealth;
 document.getElementById("eurofighterTyphoonWingspan").innerHTML = 'Wingspan: ' + eurofighterTyphoon.wingspan;
 document.getElementById("eurofighterTyphoonLength").innerHTML = 'Length: ' + eurofighterTyphoon.length;
+
+// F18 Hornet object, containing the aircraft name, description, speed, altitude, range, stealth capability, wingspan and length
+const fa18Hornet = {
+    name: "F/A-18 Hornet",
+    description: "The McDonnell Douglas F/A-18 Hornet is an all-weather, twin-engine, supersonic, carrier-capable, multirole combat aircraft, designed as both a fighter and attack aircraft (hence the F/A designation). Designed by McDonnell Douglas (now part of Boeing) and Northrop (now part of Northrop Grumman), the F/A-18 was derived from the latter's YF-17 in the 1970s for use by the United States Navy and Marine Corps. The Hornet is also used by the air forces of several other nations, and formerly by the U.S. Navy's Flight Demonstration Squadron, the Blue Angels.",
+    speed: "Mach 1.8",
+    altitude: "50,000 Feet",
+    range: "3,300 KM",
+    stealth: 'No',
+    wingspan: '40 Feet',
+    length: '56 Feet',
+};
+
+// this section pulls the data held within the fa18Hornet object and displays it in the appropriate html elements when selected
+document.getElementById("fa18Name").innerHTML = fa18Hornet.name;
+document.getElementById("fa18Description").innerHTML = fa18Hornet.description;
+document.getElementById("fa18Speed").innerHTML = 'Max Speed: ' + fa18Hornet.speed;
+document.getElementById("fa18Altitude").innerHTML = 'Max Altitude: ' + fa18Hornet.altitude;
+document.getElementById("fa18Range").innerHTML = 'Range: ' + fa18Hornet.range;
+document.getElementById("fa18Stealth").innerHTML = 'Stealth: ' + fa18Hornet.stealth;
+document.getElementById("fa18Wingspan").innerHTML = 'Wingspan: ' + fa18Hornet.wingspan;
+document.getElementById("fa18Length").innerHTML = 'Length: ' + fa18Hornet.length;
