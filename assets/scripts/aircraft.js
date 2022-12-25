@@ -56,3 +56,25 @@ document.getElementById("f35range").innerHTML = 'Range: ' + f35Lightning.range;
 document.getElementById("f35stealth").innerHTML = 'Stealth: ' + f35Lightning.stealth;
 document.getElementById("f35wingspan").innerHTML = 'Wingspan: ' + f35Lightning.wingspan;
 document.getElementById("f35length").innerHTML = 'Length: ' + f35Lightning.length;
+
+// F15 Eagle object, containing the aircraft name, description, speed, altitude, range, stealth capability, wingspan and length
+const f15Eagle = {
+    name: "F15 Eagle",
+    description: "The McDonnell Douglas F-15 Eagle is an American twin-engine, all-weather tactical fighter aircraft designed by McDonnell Douglas (now part of Boeing). Following reviews of proposals, the United States Air Force selected McDonnell Douglas's design in 1969 to meet the service's need for a dedicated air superiority fighter. The Eagle first flew in July 1972, and entered service in 1976. It is among the most successful modern fighters, with over 100 victories and no losses in aerial combat, with the majority of the kills by the Israeli Air Force.",
+    speed: "Mach 2.5",
+    altitude: "65,000 Feet",
+    range: "5,600 KM",
+    stealth: 'No',
+    wingspan: '42 Feet',
+    length: '63 Feet',
+};
+
+// this section pulls the data held within the f15Eagle object and displays it in the appropriate html elements when selected
+document.getElementById("f15name").innerHTML = f15Eagle.name;
+document.getElementById("f15description").innerHTML = f15Eagle.description;
+document.getElementById("f15speed").innerHTML = 'Max Speed: ' + f15Eagle.speed;
+document.getElementById("f15altitude").innerHTML = 'Max Altitude: ' + f15Eagle.altitude;
+document.getElementById("f15range").innerHTML = 'Range: ' + f15Eagle.range;
+document.getElementById("f15stealth").innerHTML = 'Stealth: ' + f15Eagle.stealth;
+document.getElementById("f15wingspan").innerHTML = 'Wingspan: ' + f15Eagle.wingspan;
+document.getElementById("f15length").innerHTML = 'Length: ' + f15Eagle.length;
