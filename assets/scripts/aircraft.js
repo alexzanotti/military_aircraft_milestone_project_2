@@ -34,3 +34,25 @@ document.getElementById("f22range").innerHTML = 'Range: ' + f22Raptor.range;
 document.getElementById("f22stealth").innerHTML = 'Stealth: ' + f22Raptor.stealth;
 document.getElementById("f22wingspan").innerHTML = 'Wingspan: ' + f22Raptor.wingspan;
 document.getElementById("f22length").innerHTML = 'Length: ' + f22Raptor.length;
+
+// F35 Lightning object, containing the aircraft name, description, speed, altitude, range, stealth capability, wingspan and length
+const f35Lightning = {
+    name: "F35 Lightning",
+    description: "The Lockheed Martin F-35 Lightning II is an American family of single-seat, single-engine, all-weather stealth multirole combat aircraft that is intended to perform both air superiority and strike missions. It is also able to provide electronic warfare and intelligence, surveillance, and reconnaissance capabilities. Lockheed Martin is the prime F-35 contractor, with principal partners Northrop Grumman and BAE Systems. The aircraft has three main variants: the conventional takeoff and landing (CTOL) F-35A, the short take-off and vertical-landing (STOVL) F-35B, and the carrier-based (CV/CATOBAR) F-35C.",
+    speed: "Mach 1.6",
+    altitude: "50,000 Feet",
+    range: "2,800 KM",
+    stealth: 'Yes',
+    wingspan: '35 Feet',
+    length: '51 Feet',
+};
+
+// this section pulls the data held within the f35Lightning object and displays it in the appropriate html elements when selected
+document.getElementById("f35name").innerHTML = f35Lightning.name;
+document.getElementById("f35description").innerHTML = f35Lightning.description;
+document.getElementById("f35speed").innerHTML = 'Max Speed: ' + f35Lightning.speed;
+document.getElementById("f35altitude").innerHTML = 'Max Altitude: ' + f35Lightning.altitude;
+document.getElementById("f35range").innerHTML = 'Range: ' + f35Lightning.range;
+document.getElementById("f35stealth").innerHTML = 'Stealth: ' + f35Lightning.stealth;
+document.getElementById("f35wingspan").innerHTML = 'Wingspan: ' + f35Lightning.wingspan;
+document.getElementById("f35length").innerHTML = 'Length: ' + f35Lightning.length;
