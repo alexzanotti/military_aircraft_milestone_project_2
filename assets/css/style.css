@@ -469,3 +469,30 @@ li .fa-jet-fighter {
 	}
 
 }
+
+/* || Contact Page Media Queries */
+@media only screen and (max-width: 768px) {
+
+	.contactForm {
+		width: 80%;
+	}
+
+  #contactIntro {
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+  
+}
+
+@media only screen and (max-width: 576px) {
+
+	.contactForm {
+		width: 90%;
+	}
+  #contactIntro {
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+}
