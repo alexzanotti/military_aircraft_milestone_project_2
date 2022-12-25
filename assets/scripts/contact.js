@@ -15,7 +15,6 @@
     });
 })()
 
-
 //function for email submission using emailjs
 function sendEmail() {
     // object to collect the users name, email and message
