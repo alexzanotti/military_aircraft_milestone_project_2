@@ -78,3 +78,25 @@ document.getElementById("f15range").innerHTML = 'Range: ' + f15Eagle.range;
 document.getElementById("f15stealth").innerHTML = 'Stealth: ' + f15Eagle.stealth;
 document.getElementById("f15wingspan").innerHTML = 'Wingspan: ' + f15Eagle.wingspan;
 document.getElementById("f15length").innerHTML = 'Length: ' + f15Eagle.length;
+
+// F16 Falcon object, containing the aircraft name, description, speed, altitude, range, stealth capability, wingspan and length
+const f16Falcon = {
+    name: "F16 Falcon",
+    description: "The General Dynamics F-16 Fighting Falcon is a single-engine multirole fighter aircraft originally developed by General Dynamics for the United States Air Force (USAF). Designed as an air superiority day fighter, it evolved into a successful all-weather multirole aircraft. Over 4,600 aircraft have been built since production was approved in 1976. Although no longer being purchased by the U.S. Air Force, improved versions are being built for export customers. In 1993, General Dynamics sold its aircraft manufacturing business to the Lockheed Corporation, which in turn became part of Lockheed Martin after a 1995 merger with Martin Marietta.",
+    speed: "Mach 2.05",
+    altitude: "58,000 Feet",
+    range: "4,217 KM",
+    stealth: 'No',
+    wingspan: '32 Feet',
+    length: '49 Feet',
+};
+
+// this section pulls the data held within the f16Falcon object and displays it in the appropriate html elements when selected
+document.getElementById("f16name").innerHTML = f16Falcon.name;
+document.getElementById("f16description").innerHTML = f16Falcon.description;
+document.getElementById("f16speed").innerHTML = 'Max Speed: ' + f16Falcon.speed;
+document.getElementById("f16altitude").innerHTML = 'Max Altitude: ' + f16Falcon.altitude;
+document.getElementById("f16range").innerHTML = 'Range: ' + f16Falcon.range;
+document.getElementById("f16stealth").innerHTML = 'Stealth: ' + f16Falcon.stealth;
+document.getElementById("f16wingspan").innerHTML = 'Wingspan: ' + f16Falcon.wingspan;
+document.getElementById("f16length").innerHTML = 'Length: ' + f16Falcon.length;
