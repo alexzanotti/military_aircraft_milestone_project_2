@@ -257,22 +257,6 @@ li .fa-jet-fighter {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* || General Media Queries */
 
 @media only screen and (max-width: 992px) {
@@ -339,3 +323,38 @@ li .fa-jet-fighter {
 	}
 
 }
+
+/* || Aircraft Page Media Queries */
+
+
+
+@media only screen and (max-width: 992px) {
+
+	#intro {
+	  width: 80%;
+	  margin: 0 auto;
+	}
+	
+	  .aircraftFacts p {
+	  width: 80%;
+	  margin: 0 auto;
+	  padding-bottom: 20px;
+	}
+	
+	
+	}
+	@media only screen and (max-width: 576px) {
+	
+	#intro {
+	  width: 90%;
+	  margin: 0 auto;
+	}
+	
+	  .aircraftFacts p {
+	  width: 90%;
+	  margin: 0 auto;
+	  padding-bottom: 20px;
+	}
+	
+	}
+	
