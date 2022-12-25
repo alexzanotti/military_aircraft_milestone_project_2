@@ -254,6 +254,53 @@ li .fa-jet-fighter {
   padding-bottom: 20px;
 }
 
+/* || Quiz Page */
+
+
+.selectedAnswerValue {
+	cursor: pointer;
+	margin: 20px auto;
+	width: 60%;
+	border-style: solid;
+}
+
+.selectedAnswerValue:hover {
+	background-color: rgb(33, 37, 41);
+	color: white;
+}
+
+/* Quiz Feedback */
+.correct {
+	background-color: #30D158;
+	border-style: solid;
+	color: white;
+}
+
+.incorrect {
+	background-color: red;
+	border-style: solid;
+}
+
+.quizList h2,
+.quizList h3 {
+	max-width: 60%;
+	margin: 30px auto;
+}
+
+#quizIntro p {
+	font-size: 1.2rem;
+}
+
+#quizIntro h1 {
+  margin: 30px;
+}
+
+.buttonStyle, #reset {
+  margin-bottom: 30px;
+}
+
+
+
 
 
 
