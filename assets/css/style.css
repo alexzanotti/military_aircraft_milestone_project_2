@@ -299,7 +299,30 @@ li .fa-jet-fighter {
   margin-bottom: 30px;
 }
 
+/* || Contact Page */
+.contactForm {
+	margin: 0 auto;
+	text-align: center;
+	width: 50%;
+  padding-bottom: 20px;
+}
 
+.gridFoot {
+	grid-template-rows: auto 1fr auto;
+	text-align: center;
+	display: grid;
+	min-height: 100vh;
+}
+
+#contactIntro {
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.form-group {
+  padding: 10px;
+}
 
 
 
