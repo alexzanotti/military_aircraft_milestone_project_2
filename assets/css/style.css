@@ -208,6 +208,67 @@ li .fa-jet-fighter {
   padding-bottom: 20px;
 }
 
+/* || Aircraft Page */
+
+.select button.activate {
+	background-color: #585858;
+}
+
+#intro {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Style the tab */
+.select {
+	overflow: hidden;
+	background-color: #a9a9a9;
+}
+
+/* Style the buttons inside the tab */
+.select button {
+	background-color: inherit;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 20px 25px;
+}
+
+/* Change background color of buttons on hover */
+.select button:hover {
+	background-color: rgb(33, 37, 41);
+	color: white;
+}
+
+/* Style the select class content */
+.aircraftFacts {
+	padding: 10px 20px;
+	margin: 10px 20px;
+	display: none;
+}
+
+.aircraftFacts p {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
