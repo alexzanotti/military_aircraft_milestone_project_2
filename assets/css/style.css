@@ -405,3 +405,44 @@ li .fa-jet-fighter {
 	
 	}
 	
+	/* || Quiz Page Media Queries */
+
+@media only screen and (max-width: 992px) {
+
+	.selectedAnswerValue {
+		width: 80%;
+		margin: 25px auto;
+	}
+
+	.quizList h2,
+	.quizList h3 {
+		max-width: 80%;
+	}
+
+	#quizIntro p {
+		max-width: 80%;
+    margin: 0 auto;
+	}
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+	.selectedAnswerValue {
+		width: 90%;
+		margin: 30px auto;
+	}
+
+	.quizList h2,
+	.quizList h3 {
+		max-width: 90%;
+		margin: 0 auto;
+	}
+
+	#quizIntro p {
+		max-width: 90%;
+		margin: 0 auto;
+	}
+
+}
