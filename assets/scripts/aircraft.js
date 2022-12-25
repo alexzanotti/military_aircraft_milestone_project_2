@@ -100,3 +100,25 @@ document.getElementById("f16range").innerHTML = 'Range: ' + f16Falcon.range;
 document.getElementById("f16stealth").innerHTML = 'Stealth: ' + f16Falcon.stealth;
 document.getElementById("f16wingspan").innerHTML = 'Wingspan: ' + f16Falcon.wingspan;
 document.getElementById("f16length").innerHTML = 'Length: ' + f16Falcon.length;
+
+// Eurofighter Typhoon object, containing the aircraft name, description, speed, altitude, range, stealth capability, wingspan and length
+const eurofighterTyphoon = {
+    name: "Eurofighter Typhoon",
+    description: "The Eurofighter Typhoon is a European multinational twin-engine, canard delta wing, multirole fighter. The Typhoon was designed originally as an air-superiority fighter and is manufactured by a consortium of Airbus, BAE Systems and Leonardo that conducts the majority of the project through a joint holding company, Eurofighter Jagdflugzeug GmbH. The NATO Eurofighter and Tornado Management Agency, representing the UK, Germany, Italy and Spain, manages the project and is the prime customer.",
+    speed: "Mach 2.0",
+    altitude: "65,000 Feet",
+    range: "3,790 KM",
+    stealth: 'No',
+    wingspan: '35 Feet',
+    length: '52 Feet',
+};
+
+// this section pulls the data held within the eurofighterTyphoon object and displays it in the appropriate html elements when selected
+document.getElementById("eurofighterTyphoonName").innerHTML = eurofighterTyphoon.name;
+document.getElementById("eurofighterTyphoonDescription").innerHTML = eurofighterTyphoon.description;
+document.getElementById("eurofighterTyphoonSpeed").innerHTML = 'Max Speed: ' + eurofighterTyphoon.speed;
+document.getElementById("eurofighterTyphoonAltitude").innerHTML = 'Max Altitude: ' + eurofighterTyphoon.altitude;
+document.getElementById("eurofighterTyphoonRange").innerHTML = 'Range: ' + eurofighterTyphoon.range;
+document.getElementById("eurofighterTyphoonStealth").innerHTML = 'Stealth: ' + eurofighterTyphoon.stealth;
+document.getElementById("eurofighterTyphoonWingspan").innerHTML = 'Wingspan: ' + eurofighterTyphoon.wingspan;
+document.getElementById("eurofighterTyphoonLength").innerHTML = 'Length: ' + eurofighterTyphoon.length;
