@@ -13,7 +13,7 @@
             $('#register').removeAttr('disabled');
         }
     });
-})()
+})();
 
 //function for email submission using emailjs
 function sendEmail() {
@@ -32,7 +32,7 @@ function sendEmail() {
           document.getElementById("userName").value = "";
           document.getElementById("userEmail").value = "";
           document.getElementById("userMessage").value = "";
-      })
+      });
     // redirect the user to the home page upon submission of contact form
     window.location.href="index.html";
   }
