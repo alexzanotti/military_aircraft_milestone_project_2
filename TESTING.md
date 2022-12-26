@@ -118,6 +118,16 @@ The following screenshots demonstrate functionality (usability) and interactivit
 * ![alt text](assets/images/testing/functionality/quizStealthMode.png "Quiz Page Stealth Mode")
 * ![alt text](assets/images/testing/functionality/contactStealthMode.png "Contact Page Stealth Mode")
 
+##### Footer
+
+* Hovering over the site link icons change color to green (and clicking on a site link will redirect you to the relevant page)
+![alt text](assets/images/testing/functionality/footerHomeHover.png "Footer Home Icon")
+![alt text](assets/images/testing/functionality/footerAircraftHover.png "Footer Aircraft Icon")
+![alt text](assets/images/testing/functionality/footerQuizHover.png "Footer Quiz Icon")
+![alt text](assets/images/testing/functionality/footerContactHover.png "Footer Contact Icon")
+
+
+
 ### Browser Testing
 
 #### Chrome
