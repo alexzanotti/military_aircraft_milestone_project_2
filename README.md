@@ -25,3 +25,27 @@ In order to pass this milstone project, the following requirements must be met:
 7. Version Control: Use Git & GitHub for version control.
 8. Attribution: Maintain clear separation between code written by you and code from external sources (e.g. libraries or tutorials). Attribute any code from external sources to its source via comments above the code and (for larger dependencies) in the README.
 9. Deployment: Deploy the final version of your code to a hosting platform such as GitHub Pages.
+
+# UX
+
+## The ideal users for this website:
+* Are military aircraft enthusiasts
+* Are interested in learning more about fighter aircraft
+* Want to test their military aircraft knowledge
+
+## User Stories
+
+### Military Aircraft Enthusiasts User Stories
+
+* As a Military Aircraft Enthusiast, I want to see images of the best fighter aircraft in the world.
+* As a Military Aircraft Enthusiast, I want to learn more about where the best fighter aircraft in the world are located.
+
+### Users Interested in Learning More About Fighter Aircraft User Stories
+
+* As a user interested in learning more about fighter aircraft, I want to have an understanding of the performance of the fighter aircraft, such as the top speed, maxiumum altitude etc.
+* As a user interested in learning more about fighter aircraft, I want to be able to contact the websites "admin" team, in order to ask any further questions
+
+### Users Who Want to Test Their Military Aircraft Knowledge User Stories
+
+* As a user who wants to test their military aircraft knowledge, I want to be able to test my newfound knowledge of the fighter aircraft
+* As a user who wants to test their military aircraft knowledge, I want to be able to receive feedback on how well i understand the information about the aircraft
