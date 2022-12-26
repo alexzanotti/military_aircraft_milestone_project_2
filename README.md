@@ -121,3 +121,14 @@ The structure of the website will be as follows:
 
 ### Skeleton Plane
 In order to complete the skeleton plane, wireframes were made using [Balsamiq](https://balsamiq.com/). 
+
+### Balsamiq Wireframe Images
+Below are the Wireframes created in Balsamiq for this project:
+* Home Page Wireframe
+![alt text](assets/images/readme/wireframeHome.png "Home Page Wireframe")
+* Aircraft Page Wireframe
+![alt text](assets/images/readme/wireframeAircraft.png "Aircraft Page Wireframe")
+* Quiz Page Wireframe
+![alt text](assets/images/readme/wireframeQuiz.png "Quiz Page Wireframe")
+* Contact Page Wireframe
+![alt text](assets/images/readme/wireframeContact.png "Contact Page Wireframe")
