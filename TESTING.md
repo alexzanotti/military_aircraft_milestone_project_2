@@ -69,30 +69,30 @@ The testing procedure looks at testing each user story/functionality/interactivi
 
 ##### As a Military Aircraft Enthusiast, I want to see images of the best fighter aircraft in the world.
 - Images are provided of each of the fighter aircraft on the "Home" page. The user are previous and next buttons to toggle between each image: 
-![alt text](assets/testing/userStory/userStoryOneOne.png "Home Page Image Carousel")
+![alt text](assets/images/testing/userStoryOneOne.png "Home Page Image Carousel")
 
 - Images are provided on the "Aircraft" page for each aircraft that is selected:
-![alt text](assets/testing/userStory/userStoryOneTwo.png "Aircraft Page Image Carousel")
+![alt text](assets/images/testing/userStoryOneTwo.png "Aircraft Page Image Carousel")
 
 ##### As a Military Aircraft Enthusiast, I want to learn more about where the best fighter aircraft in the world are located.
 - A Google Maps API is located on the "Home" page, which has markers set for each country that operates at least one of the six fighter aircraft within the site:
-![alt text](assets/testing/userStory/userStoryOneTwo.png "Google Maps API")
+![alt text](assets/images/testing/userStoryOneTwo.png "Google Maps API")
 
 ##### As a user interested in learning more about fighter aircraft, I want to have an understanding of the performance of the fighter aircraft, such as the top speed, maxiumum altitude etc.
 - For each buttons within the "Aircraft" page, there is a description and list of facts/figures for each fighter aircraft:
-![alt text](assets/testing/userStory/userStoryThree.png "Aircraft Information")
+![alt text](assets/images/testing/userStoryThree.png "Aircraft Information")
 
 ##### As a user interested in learning more about fighter aircraft, I want to be able to contact the websites "admin" team, in order to ask any further questions
 - There is a "Contact" page within the website, where the user is able to get in contact with the "admin" team, should they have any further questions:
-![alt text](assets/testing/userStory/userStoryFour.png "Contact Form")
+![alt text](assets/images/testing/userStoryFour.png "Contact Form")
 
 ##### As a user who wants to test their military aircraft knowledge, I want to be able to test my newfound knowledge of the fighter aircraft
 - On the "Quiz" page of the website, there are 12 questions that the user is able to answer, derived from information on the "Aircraft" page:
-![alt text](assets/testing/userStory/userStoryFive.png "Quiz Questions")
+![alt text](assets/images/testing/userStoryFive.png "Quiz Questions")
 
 ##### As a user who wants to test their military aircraft knowledge, I want to be able to receive feedback on how well i understand the information about the aircraft
 - On the "Quiz" page of the website, the user is able to select the "submit" button, which will give them feedback on their score, to get an idea of how well they understand the content:
-![alt text](assets/testing/userStory/userStorySix.png "Quiz Score")
+![alt text](assets/images/testing/userStorySix.png "Quiz Score")
 
 
 
