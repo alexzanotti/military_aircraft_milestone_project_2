@@ -215,3 +215,36 @@ Icons have have been used within the navigation bar, footer, browser icon and th
 
 - The contact page contains a form that the user is able to complete. It asked for their Name, Email and Message.
 - The "Submit" button is disabled until the user completes all fields. The color of the "Submit" button will slightly change when this occurs
+
+# Technologies Used
+
+## Main Technologies Used
+### HTML5
+### CSS3
+### Javascript
+
+## Frameworks, Libraries & Programs Used
+### Bootstrap
+Bootstrap was used in the media page to assist with enabling a responsive design
+### jQuery 
+jQuery was sparingly used within the project
+### Google Maps API
+The Google Maps API was setup with markers set for each country that operates at least one of the aircraft within the site. 
+### EmailJS
+EmailJS is used to send the contact form through to the "admins" mailbox, so they can contact the user who raised the request
+### Google Fonts
+Google fonts was used to import the fonts Barlow, Chivo Mono, Lato, Oswald & Quantico into the style.css file.
+### Font Awesome
+Font Awesome was used on all pages in the header (fighter aircraft icon to link to home page) footer (to denote site links). The fighter aircraft icon was also used on the home page in place of bullet points for the unordered list
+### GitPod
+GitPod was used for writing code, commiting, and then pushing to GitHub.
+### GitHub
+GitHub was used as the repository for the code.
+### Balsamiq
+Balsamiq was used to create the wireframes during the design of the project.
+### validator.w3.org
+This was used to validate the HTML code
+### jigsaw.w3.org/css-validator
+This was used to validate the CSS code
+### JSHint
+This was used to validate the Javascript code
