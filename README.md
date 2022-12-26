@@ -132,3 +132,26 @@ Below are the Wireframes created in Balsamiq for this project:
 ![alt text](assets/images/readme/wireframeQuiz.png "Quiz Page Wireframe")
 * Contact Page Wireframe
 ![alt text](assets/images/readme/wireframeContact.png "Contact Page Wireframe")
+
+### Surface Plane
+
+The surface of this website endevours to give a military ‘look-and-feel’, in terms of the following colours/graphics:
+
+#### Colour Schemes
+
+The main colours used through this project are as follows:
+
+* Light Grey
+* Dark Grey
+* Red
+* White
+* Light Green
+* Black
+
+This fits the military theme, for example the stealth mode switch toggles a black background accompanied by a light green colour scheme. This replicates a fighter aircrafts heads up display (HUD).
+
+#### Graphics
+
+For each aircraft in scope of the website, an number of images have been provided.
+
+Icons have have been used within the navigation bar, footer, browser icon and the lists on the home page.
