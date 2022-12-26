@@ -20,13 +20,13 @@
 function sendEmail() {
     // object to collect the users name, email and message
     var content = {
-      name: document.getElementById("userName").value,
-      email: document.getElementById("userEmail").value,
-      message: document.getElementById("userMessage").value,
+        name: document.getElementById("userName").value,
+        email: document.getElementById("userEmail").value,
+        message: document.getElementById("userMessage").value,
     };
     // variable for both the emailjs serviceID and templateID
     const serviceID = "service_ujlw0id";
     const templateID = "template_vmke7ek";
     // send the email
     emailjs.send(serviceID, templateID, content)
-  }
+}

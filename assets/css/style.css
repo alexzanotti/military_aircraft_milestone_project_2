@@ -196,16 +196,16 @@ li .fa-jet-fighter {
 #alignment h1,
 #alignment h1,
 #alignment p {
-  width: 60%;
+	width: 60%;
 	margin: 0 auto;
 }
 
 #alignment h1 {
-  padding: 25px;
+	padding: 25px;
 }
 
 #alignment p {
-  padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 /* || Aircraft Page */
@@ -215,9 +215,9 @@ li .fa-jet-fighter {
 }
 
 #intro {
-  width: 60%;
-  margin: 0 auto;
-  padding: 20px 0;
+	width: 60%;
+	margin: 0 auto;
+	padding: 20px 0;
 }
 
 /* Style the tab */
@@ -249,9 +249,9 @@ li .fa-jet-fighter {
 }
 
 .aircraftFacts p {
-  width: 60%;
-  margin: 0 auto;
-  padding-bottom: 20px;
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 20px;
 }
 
 /* || Quiz Page */
@@ -292,11 +292,12 @@ li .fa-jet-fighter {
 }
 
 #quizIntro h1 {
-  margin: 30px;
+	margin: 30px;
 }
 
-.buttonStyle, #reset {
-  margin-bottom: 30px;
+.buttonStyle,
+#reset {
+	margin-bottom: 30px;
 }
 
 /* || Contact Page */
@@ -304,7 +305,7 @@ li .fa-jet-fighter {
 	margin: 0 auto;
 	text-align: center;
 	width: 50%;
-  padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 .gridFoot {
@@ -315,16 +316,14 @@ li .fa-jet-fighter {
 }
 
 #contactIntro {
-  padding: 20px;
-  width: 60%;
-  margin: 0 auto;
+	padding: 20px;
+	width: 60%;
+	margin: 0 auto;
 }
 
 .form-group {
-  padding: 10px;
+	padding: 10px;
 }
-
-
 
 
 /* || General Media Queries */
@@ -368,13 +367,13 @@ li .fa-jet-fighter {
 		transform: scale(0.80);
 	}
 
-    #alignment h1,
-    #alignment h2,
+	#alignment h1,
+	#alignment h2,
 	#alignment p {
-  	width: 80%;
-	margin: 0 auto;
-}
-	
+		width: 80%;
+		margin: 0 auto;
+	}
+
 }
 
 
@@ -397,38 +396,38 @@ li .fa-jet-fighter {
 /* || Aircraft Page Media Queries */
 
 
-
 @media only screen and (max-width: 992px) {
 
 	#intro {
-	  width: 80%;
-	  margin: 0 auto;
+		width: 80%;
+		margin: 0 auto;
 	}
-	
-	  .aircraftFacts p {
-	  width: 80%;
-	  margin: 0 auto;
-	  padding-bottom: 20px;
+
+	.aircraftFacts p {
+		width: 80%;
+		margin: 0 auto;
+		padding-bottom: 20px;
 	}
-	
-	
-	}
-	@media only screen and (max-width: 576px) {
-	
+
+
+}
+
+@media only screen and (max-width: 576px) {
+
 	#intro {
-	  width: 90%;
-	  margin: 0 auto;
+		width: 90%;
+		margin: 0 auto;
 	}
-	
-	  .aircraftFacts p {
-	  width: 90%;
-	  margin: 0 auto;
-	  padding-bottom: 20px;
+
+	.aircraftFacts p {
+		width: 90%;
+		margin: 0 auto;
+		padding-bottom: 20px;
 	}
-	
-	}
-	
-	/* || Quiz Page Media Queries */
+
+}
+
+/* || Quiz Page Media Queries */
 
 @media only screen and (max-width: 992px) {
 
@@ -444,7 +443,7 @@ li .fa-jet-fighter {
 
 	#quizIntro p {
 		max-width: 80%;
-    margin: 0 auto;
+		margin: 0 auto;
 	}
 
 }
@@ -477,12 +476,12 @@ li .fa-jet-fighter {
 		width: 80%;
 	}
 
-  #contactIntro {
-  padding: 20px;
-  width: 80%;
-  margin: 0 auto;
-}
-  
+	#contactIntro {
+		padding: 20px;
+		width: 80%;
+		margin: 0 auto;
+	}
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -490,9 +489,10 @@ li .fa-jet-fighter {
 	.contactForm {
 		width: 90%;
 	}
-  #contactIntro {
-  padding: 20px;
-  width: 90%;
-  margin: 0 auto;
-}
+
+	#contactIntro {
+		padding: 20px;
+		width: 90%;
+		margin: 0 auto;
+	}
 }

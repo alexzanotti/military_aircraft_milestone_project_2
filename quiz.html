@@ -17,279 +17,278 @@
   <body class="body">
     <!--Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="aircraft.html">
-          <i class="fa-sharp fa-solid fa-jet-fighter"></i>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="aircraft.html">Aircraft</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="test.html">Quiz</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="aircraft.html">
+        <i class="fa-sharp fa-solid fa-jet-fighter"></i>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aircraft.html">Aircraft</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="test.html">Quiz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!--Dark mode switch--> 
+        <div class="form-check form-switch">
+          <label class="form-check-label" for="flexSwitchCheckDefault">Stealth Mode</label>
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onclick="darkMode()">
+        </div>
+      </div>
+    </nav>
+    <div id="quizIntro">
+      <h1>Quiz</h1>
+      <p>In order to test your knowledge gained on the Aircraft page, a 12 question quiz has been created.</p>
+      <p>You will be asked 2 questions about each of the 6 aircraft within this website</p>
+      <p>Once you've completed the test, press the "Submit" button to receive your score</p>
+      <p>If you would like to restart the quiz, press the "Reset" button at the bottom of the page</p>
+      <p>If you would like to learn more about the aircraft, press the "Learn More" button at the bottom of the page</p>
+    </div>
+    <section class="quizList">
+      <!--Question 1-->
+      <div>
+        <div>
+          <h2>Question 1</h2>
+        </div>
+        <div>
+          <h3>What is the max speed of the f22 raptor?</h3>
+        </div>
+        <div>
+          <p class='true selectedAnswerValue'>Mach 2.25</p>
+          <p class='false selectedAnswerValue'>Mach 2.5</p>
+          <p class='false selectedAnswerValue'>Mach 2.75</p>
+          <p class='false selectedAnswerValue'>Mach 2.0</p>
+        </div>
+      </div>
+      <!--Question 2-->
+      <div>
+        <div>
+          <h2>Question 2</h2>
+        </div>
+        <div>
+          <h3>Does the F-22 Raptor have stealth capability?</h3>
+        </div>
+        <div>
+          <p class='true selectedAnswerValue'>Yes</p>
+          <p class='false selectedAnswerValue'>No</p>
+        </div>
+      </div>
+      <!--Question 3-->
+      <div>
+        <div>
+          <h2>Question 3</h2>
+        </div>
+        <div>
+          <h3>What is the maximum altitude of the F-35 Lightning?</h3>
+        </div>
+        <div>
+          <p class='false selectedAnswerValue'>70,000 Feet</p>
+          <p class='false selectedAnswerValue'>60,000 Feet</p>
+          <p class='true selectedAnswerValue'>50,000 Feet</p>
+          <p class='false selectedAnswerValue'>40,000 Feet</p>
+        </div>
+      </div>
+      <!--Question 4-->
+      <div>
+        <div>
+          <h2>Question 4</h2>
+        </div>
+        <div>
+          <h3>Who is the prime contractor of the F-35 Lightning?</h3>
+        </div>
+        <div>
+          <p class='false selectedAnswerValue'>McDonnell Douglas</p>
+          <p class='true selectedAnswerValue'>Lockheed Martin</p>
+          <p class='false selectedAnswerValue'>General Dynamics </p>
+          <p class='false selectedAnswerValue'>Eurofighter Jagdflugzeug GmbH</p>
+        </div>
+      </div>
+      <!--Question 5-->
+      <div>
+        <div>
+          <h2>Question 5</h2>
+        </div>
+        <div>
+          <h3>What is the maximum range of the F-15 Eagle?</h3>
+        </div>
+        <div>
+          <p class='false selectedAnswerValue'>7,200 KM</p>
+          <p class='false selectedAnswerValue'>1,600 KM</p>
+          <p class='true selectedAnswerValue'>5,600 KM</p>
+          <p class='false selectedAnswerValue'>4,500 KM</p>
+        </div>
+      </div>
+      <!--Question 6-->
+      <div>
+        <div>
+          <h2>Question 6</h2>
+        </div>
+        <div>
+          <h3>What is the wingspan of the F-15 Eagle?</h3>
+        </div>
+        <div>
+          <p class='false selectedAnswerValue'>49 Feet</p>
+          <p class='false selectedAnswerValue'>56 Feet</p>
+          <p class='false selectedAnswerValue'>35 Feet</p>
+          <p class='true selectedAnswerValue'>42 Feet</p>
+        </div>
+      </div>
+      <!--Question 7-->
+      <div>
+        <div>
+          <h2>Question 7</h2>
+        </div>
+        <div>
+          <h3>How many F-16 Falcons have been built since production was approved in 1976?</h3>
+        </div>
+        <div>
+          <p class='false selectedAnswerValue'>1,200</p>
+          <p class='true selectedAnswerValue'>4,600</p>
+          <p class='false selectedAnswerValue'>7,800</p>
+          <p class='false selectedAnswerValue'>12,400</p>
+        </div>
+      </div>
+      <!--Question 8-->
+      <div>
+        <div>
+          <h2>Question 8</h2>
+        </div>
+        <div>
+          <h3>Does the F-16 Falcon have stealth capability?</h3>
+        </div>
+        <div>
+          <p class='false selectedAnswerValue'>Yes</p>
+          <p class='true selectedAnswerValue'>No</p>
+        </div>
+      </div>
+      <!--Question 9-->
+      <div>
+        <div>
+          <h2>Question 9</h2>
+        </div>
+        <div>
+          <h3>What is the maximum speed of the Eurofighter Typhoon?</h3>
+        </div>
+        <div>
+          <p class='false selectedAnswerValue'>Mach 3.0</p>
+          <p class='false selectedAnswerValue'>Mach 2.5</p>
+          <p class='false selectedAnswerValue'>Mach 1.5</p>
+          <p class='true selectedAnswerValue'>Mach 2.0</p>
+        </div>
+      </div>
+      <!--Question 10-->
+      <div>
+        <div>
+          <h2>Question 10</h2>
+        </div>
+        <div>
+          <h3>What is the maximum altitude of the Eurofighter Typhoon?</h3>
+        </div>
+        <div>
+          <p class='true selectedAnswerValue'>65,000 Feet</p>
+          <p class='false selectedAnswerValue'>55,000 Feet</p>
+          <p class='false selectedAnswerValue'>75,000 Feet</p>
+          <p class='false selectedAnswerValue'>45,000 Feet</p>
+        </div>
+      </div>
+      <!--Question 11-->
+      <div>
+        <div>
+          <h2>Question 11</h2>
+        </div>
+        <div>
+          <h3>The F/A-18 is used for the U.S. Navy's Flight Demonstration Squadron. What is the name of the Squadron?</h3>
+        </div>
+        <div>
+          <p class='false selectedAnswerValue'>The Red Arrows</p>
+          <p class='false selectedAnswerValue'>The Thunderbirds</p>
+          <p class='true selectedAnswerValue'>The Blue Angels</p>
+          <p class='false selectedAnswerValue'>The Silver Falcons</p>
+        </div>
+      </div>
+      <!--Question 12-->
+      <div>
+        <div>
+          <h2>Question 12</h2>
+        </div>
+        <div>
+          <h3>What is the wingspan of the F/A-18 Hornet?</h3>
+        </div>
+        <div>
+          <p class='false selectedAnswerValue'>50 Feet</p>
+          <p class='false selectedAnswerValue'>60 Feet</p>
+          <p class='false selectedAnswerValue'>30 Feet</p>
+          <p class='true selectedAnswerValue'>40 Feet</p>
+        </div>
+      </div>
+    </section>
+    <!--Results section-->
+    <section class="container-fluid results-section">
+      <div class="row">
+        <div class="col-12">
+          <p class="btn btn-success btn-lg resultsButton answer-btn-margin" id="revealScore">Submit</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="standard-box standard-font responsive-font noneDisplay">
+            <h1 id="score"></h1>
+            <p class="scoreText standard-font"></p>
+          </div>
+        </div>
+      </div>
+      <div class="row buttonStyle">
+        <div class="col-12 col-md-6">
+          <div class="box-two-col next-step-btns">
+            <p class="btn btn-danger btn-lg" id="reset">Reset</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="box-two-col next-step-btns">
+            <a class="btn btn-warning btn-lg" href="aircraft.html">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footerContainer">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12" id="footerAbout">
+            <h2>About</h2>
+            <p>The website provides information about some of the best fighter aircraft in the world and want to test their newfound knowledge</p>
+          </div>
+          <div class="col-lg-6 col-sm-12" id="siteLinks">
+            <h2>Site Links</h2>
+            <ul>
+              <li><a href="index.html" aria-label="Home"><i class="fa-solid fa-house"></i></a></li>
+              <li><a href="aircraft.html" aria-label="Aircraft"><i class="fa-sharp fa-solid fa-jet-fighter"></i></a></li>
+              <li><a href="quiz.html" aria-label="quiz"><i class="fa-solid fa-pen"></i></a></li>
+              <li><a href="contact.html" aria-label="Contact"><i class="fa-solid fa-envelope"></i></a></li>
             </ul>
           </div>
-          <!--Dark mode switch--> 
-          <div class="form-check form-switch">
-            <label class="form-check-label" for="flexSwitchCheckDefault">Stealth Mode</label>
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onclick="darkMode()">
-          </div>
         </div>
-      </nav>
-      <div id="quizIntro">
-        <h1>Quiz</h1>
-        <p>In order to test your knowledge gained on the Aircraft page, a 12 question quiz has been created.</p>
-        <p>You will be asked 2 questions about each of the 6 aircraft within this website</p>
-        <p>Once you've completed the test, press the "Submit" button to receive your score</p>
-        <p>If you would like to restart the quiz, press the "Reset" button at the bottom of the page</p>
-        <p>If you would like to learn more about the aircraft, press the "Learn More" button at the bottom of the page</p>
       </div>
-      <section class="quizList">
-        <!--Question 1-->
-        <div>
-          <div>
-            <h2>Question 1</h2>
-          </div>
-          <div>
-            <h3>What is the max speed of the f22 raptor?</h3>
-          </div>
-          <div>
-            <p class='true selectedAnswerValue'>Mach 2.25</p>
-            <p class='false selectedAnswerValue'>Mach 2.5</p>
-            <p class='false selectedAnswerValue'>Mach 2.75</p>
-            <p class='false selectedAnswerValue'>Mach 2.0</p>
-          </div>
-        </div>
-        <!--Question 2-->
-        <div>
-          <div>
-            <h2>Question 2</h2>
-          </div>
-          <div>
-            <h3>Does the F-22 Raptor have stealth capability?</h3>
-          </div>
-          <div>
-            <p class='true selectedAnswerValue'>Yes</p>
-            <p class='false selectedAnswerValue'>No</p>
-          </div>
-        </div>
-        <!--Question 3-->
-        <div>
-          <div>
-            <h2>Question 3</h2>
-          </div>
-          <div>
-            <h3>What is the maximum altitude of the F-35 Lightning?</h3>
-          </div>
-          <div>
-            <p class='false selectedAnswerValue'>70,000 Feet</p>
-            <p class='false selectedAnswerValue'>60,000 Feet</p>
-            <p class='true selectedAnswerValue'>50,000 Feet</p>
-            <p class='false selectedAnswerValue'>40,000 Feet</p>
-          </div>
-        </div>
-        <!--Question 4-->
-        <div>
-          <div>
-            <h2>Question 4</h2>
-          </div>
-          <div>
-            <h3>Who is the prime contractor of the F-35 Lightning?</h3>
-          </div>
-          <div>
-            <p class='false selectedAnswerValue'>McDonnell Douglas</p>
-            <p class='true selectedAnswerValue'>Lockheed Martin</p>
-            <p class='false selectedAnswerValue'>General Dynamics </p>
-            <p class='false selectedAnswerValue'>Eurofighter Jagdflugzeug GmbH</p>
-          </div>
-        </div>
-        <!--Question 5-->
-        <div>
-          <div>
-            <h2>Question 5</h2>
-          </div>
-          <div>
-            <h3>What is the maximum range of the F-15 Eagle?</h3>
-          </div>
-          <div>
-            <p class='false selectedAnswerValue'>7,200 KM</p>
-            <p class='false selectedAnswerValue'>1,600 KM</p>
-            <p class='true selectedAnswerValue'>5,600 KM</p>
-            <p class='false selectedAnswerValue'>4,500 KM</p>
-          </div>
-        </div>
-        <!--Question 6-->
-        <div>
-          <div>
-            <h2>Question 6</h2>
-          </div>
-          <div>
-            <h3>What is the wingspan of the F-15 Eagle?</h3>
-          </div>
-          <div>
-            <p class='false selectedAnswerValue'>49 Feet</p>
-            <p class='false selectedAnswerValue'>56 Feet</p>
-            <p class='false selectedAnswerValue'>35 Feet</p>
-            <p class='true selectedAnswerValue'>42 Feet</p>
-          </div>
-        </div>
-        <!--Question 7-->
-        <div>
-          <div>
-            <h2>Question 7</h2>
-          </div>
-          <div>
-            <h3>How many F-16 Falcons have been built since production was approved in 1976?</h3>
-          </div>
-          <div>
-            <p class='false selectedAnswerValue'>1,200</p>
-            <p class='true selectedAnswerValue'>4,600</p>
-            <p class='false selectedAnswerValue'>7,800</p>
-            <p class='false selectedAnswerValue'>12,400</p>
-          </div>
-        </div>
-        <!--Question 8-->
-        <div>
-          <div>
-            <h2>Question 8</h2>
-          </div>
-          <div>
-            <h3>Does the F-16 Falcon have stealth capability?</h3>
-          </div>
-          <div>
-            <p class='false selectedAnswerValue'>Yes</p>
-            <p class='true selectedAnswerValue'>No</p>
-          </div>
-        </div>
-        <!--Question 9-->
-        <div>
-          <div>
-            <h2>Question 9</h2>
-          </div>
-          <div>
-            <h3>What is the maximum speed of the Eurofighter Typhoon?</h3>
-          </div>
-          <div>
-            <p class='false selectedAnswerValue'>Mach 3.0</p>
-            <p class='false selectedAnswerValue'>Mach 2.5</p>
-            <p class='false selectedAnswerValue'>Mach 1.5</p>
-            <p class='true selectedAnswerValue'>Mach 2.0</p>
-          </div>
-        </div>
-        <!--Question 10-->
-        <div>
-          <div>
-            <h2>Question 10</h2>
-          </div>
-          <div>
-            <h3>What is the maximum altitude of the Eurofighter Typhoon?</h3>
-          </div>
-          <div>
-            <p class='true selectedAnswerValue'>65,000 Feet</p>
-            <p class='false selectedAnswerValue'>55,000 Feet</p>
-            <p class='false selectedAnswerValue'>75,000 Feet</p>
-            <p class='false selectedAnswerValue'>45,000 Feet</p>
-          </div>
-        </div>
-        <!--Question 11-->
-        <div>
-          <div>
-            <h2>Question 11</h2>
-          </div>
-          <div>
-            <h3>The F/A-18 is used for the U.S. Navy's Flight Demonstration Squadron. What is the name of the Squadron?</h3>
-          </div>
-          <div>
-            <p class='false selectedAnswerValue'>The Red Arrows</p>
-            <p class='false selectedAnswerValue'>The Thunderbirds</p>
-            <p class='true selectedAnswerValue'>The Blue Angels</p>
-            <p class='false selectedAnswerValue'>The Silver Falcons</p>
-          </div>
-        </div>
-        <!--Question 12-->
-        <div>
-          <div>
-            <h2>Question 12</h2>
-          </div>
-          <div>
-            <h3>What is the wingspan of the F/A-18 Hornet?</h3>
-          </div>
-          <div>
-            <p class='false selectedAnswerValue'>50 Feet</p>
-            <p class='false selectedAnswerValue'>60 Feet</p>
-            <p class='false selectedAnswerValue'>30 Feet</p>
-            <p class='true selectedAnswerValue'>40 Feet</p>
-          </div>
-        </div>
-      </section>
-        <!--Results section-->
-    <section class="container-fluid results-section">
-        <div class="row">
-          <div class="col-12">
-            <p class="btn btn-success btn-lg resultsButton answer-btn-margin" id="revealScore">Submit</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="standard-box standard-font responsive-font noneDisplay">
-              <h1 id="score"></h1>
-              <p class="scoreText standard-font"></p>
-            </div>
-          </div>
-        </div>
-        <div class="row buttonStyle">
-          <div class="col-12 col-md-6">
-            <div class="box-two-col next-step-btns">
-              <p class="btn btn-danger btn-lg" id="reset">Reset</p>
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="box-two-col next-step-btns">
-              <a class="btn btn-warning btn-lg" href="aircraft.html">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </section>  
-      <!-- Footer -->
-    <footer id="footerContainer">
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-6 col-sm-12" id="footerAbout">
-              <h2>About</h2>
-              <p>The website provides information about some of the best fighter aircraft in the world and want to test their newfound knowledge</p>
-            </div>
-            <div class="col-lg-6 col-sm-12" id="siteLinks">
-              <h2>Site Links</h2>
-              <ul>
-                <li><a href="index.html" aria-label="Home"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="aircraft.html" aria-label="Aircraft"><i class="fa-sharp fa-solid fa-jet-fighter"></i></a></li>
-                <li><a href="quiz.html" aria-label="quiz"><i class="fa-solid fa-pen"></i></a></li>
-                <li><a href="contact.html" aria-label="Contact"><i class="fa-solid fa-envelope"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <!-- Scripts Section -->
+    </footer>
+    <!-- Scripts Section -->
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <!-- Javascript -->
     <script src="assets/scripts/quiz.js"></script>
     <script src="assets/scripts/main.js"></script>
     <!-- Google Maps API -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHdFtbUHRsa5C6QO0CLfhdZxw7boIx3-w&callback=aircraftMap">
-    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHdFtbUHRsa5C6QO0CLfhdZxw7boIx3-w&callback=aircraftMap"></script>
   </body>
 </html>

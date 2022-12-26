@@ -37,7 +37,7 @@ $(document).ready(function() {
         if (score === 12) {
             $('.scoreText').text('Congratulations! You scored full marks!');
         } // if the user scores less than full marks, they will receive the following message
-          else if (score < 12) {
+        else if (score < 12) {
             $('.scoreText').text('Good effort! You can retake the test by pressing the reset button below, or learn more about the aircraft by pressing the learn more button');
         }
     });
