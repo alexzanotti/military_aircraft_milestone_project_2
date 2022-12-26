@@ -155,3 +155,63 @@ This fits the military theme, for example the stealth mode switch toggles a blac
 For each aircraft in scope of the website, an number of images have been provided.
 
 Icons have have been used within the navigation bar, footer, browser icon and the lists on the home page.
+
+# Features
+
+## Head
+- Each page of the website contains a relevant title
+- A fighter aircraft browser icon image is used
+
+## Header
+- Bootstrap is used to construct the header
+- Depending on what page the user is on, the color of the list item will be different
+- When hovering over a different list item, the color will change
+- A fighter aircraft icon is held on the left hand side of the navigation bar
+- When hovering over the icon, the color changes to green
+- Clicking on the icon takes the user to the home page
+- A stealth mode toggle has been added to the navigation bar
+- The stealth mode toggle changes the styling of the main content of the page
+- For smaller screens, a vertical navbar (hamburger) is used
+
+## Footer
+- Bootstrap is used to contruct the footer
+- The "About" information is held on the left hand side of the page (for larger screens)
+- The "Site Links" information is held on the right hand side of the page (for larger screens)
+- Icons are used to denote the site links
+- The icons change color to green when hovering
+- Clicking on the icons take the user to the relevant page
+- For smaller screens, the about section is stacked about the site links
+
+## Home Page
+
+- The home page contains introductory text, describing the website
+- The unordered list displays the aircraft in scope of the website
+- The bullet points for the list are not displayed - fighter aircraft icons are used instead
+- The aircraft icons change color to green when hovered over
+- There is an image carousel that the user is also to select the "previous" or "next" icons to change image
+- There is a Google Maps API that allows the user to view where each of the 
+
+## Aircraft Page
+
+- The introductory text advises the user to select a tab to view information about each aircraft
+- The "select" div contains buttons for each of the 6 aircraft
+- When clicking a button, the information around the aircraft is presented
+- for each aircraft, there is a brief description, list of facts and image carousel
+
+## Quiz Page
+
+- The introductory text gives and overview of the quiz and how to submit/reset/learn more.
+- There are 12 multiple choice questions presented
+- When hovering over an answer, the color changes
+- When selecting an answer, the user is given feedback on whether the answer was correct or incorrect
+- The questions not selected for those answers are then no longer displayed
+- The selected answer changes color, denoting whether the answer was correct or incorrect
+- There is a "Submit" button that the user selects one completing the quiz
+- Upon clicking the "Submit" button, the user receives their score (out of 12)
+- The user is able to click the "Reset" button, which will refresh the page, enabling the user to start the quiz again
+- The user is able to click the "Learn More" button, which will take the user to the "Aircraft" page
+
+## Contact Page
+
+- The contact page contains a form that the user is able to complete. It asked for their Name, Email and Message.
+- The "Submit" button is disabled until the user completes all fields. The color of the "Submit" button will slightly change when this occurs
