@@ -58,3 +58,96 @@ This tests the HTML code
 This tests the CSS code 
 #### JSHint
 This tests the Javascript code 
+
+
+
+### Browser Testing
+
+#### Chrome
+* The Quiz page of the website is working correctly in Google Chrome
+![alt text](assets/images/testing/chromeQuiz.png "chrome")
+#### Firefox
+* The Quiz page of the website is working correctly in Firefox
+![alt text](assets/images/testing/firefoxQuiz.png "firefox")
+#### Edge
+* The Quiz Members page of the website is working correctly in Edge
+![alt text](assets/images/testing/edgeQuiz.png "edge")
+#### Safari
+* The Quiz page of the website is working correctly in Safari
+![alt text](assets/images/testing/safariQuiz.png "safari")
+
+### Lighthouse Report
+
+#### Home Page
+* The Home page returned high scores in all areas of the lighthouse report, with the exception of the performance
+![alt text](assets/images/testing/indexLighthouse.png "home page lighthouse report")
+#### Aircraft Page
+* The Aircraft page returned high scores in the accessibility field of the lighthouse report, with the exception of the performance,best practice & SEO
+![alt text](assets/images/testing/aircraftLighthouse.png "aircraft page lighthouse report")
+#### Quiz Page
+* The Quiz Members page returned high scores in the accessibility field of the lighthouse report, with the exception of the performance,best practice & SEO
+![alt text](assets/images/testing/quizLighthouse.png "quiz page lighthouse report")
+#### Contact Page
+* The Contact page returned high scores in the accessibility & best practice fields of the lighthouse report, with the exception of the performance & SEO
+![alt text](assets/images/testing/contactLighthouse.png "contact page lighthouse report")
+
+
+
+
+### Automated Testing
+
+#### validator.w3.org (HTML)
+##### index.html
+* The index.html file contains no errors when put through a code validator
+![alt text](assets/images/testing/indexValidator.png "index.html")
+
+##### aircraft.html
+* The aircraft.html file contains no errors when put through a code validator, however there are a number of warning due to empty headings (Javascript pulls through the HTML content)
+![alt text](assets/images/testing/aircraftValidatorOne.png "aircraft.html 1")
+![alt text](assets/images/testing/aircraftValidatorTwo.png "aircraft.html 2")
+
+##### quiz.html
+* The quiz.html file contains a number of errors when first put through the validator
+![alt text](assets/images/testing/quizValidatorOne.png "quiz.html 1")
+![alt text](assets/images/testing/quizValidatorTwo.png "quiz.html 2")
+* The code was corrected and re-tested (only an empty header - Javascript pulls through HTML content)
+![alt text](assets/images/testing/quizValidatorThree.png "quiz.html 3")
+
+##### contact.html
+* The contact.html file contains a number of errors when first put through the validator
+![alt text](assets/images/testing/contactValidatorOne.png "contact.html 1")
+![alt text](assets/images/testing/contactValidatorTwo.png "contact.html 2")
+* The code was corrected and re-tested - only the Javascript type fields remained as a warning (deferring on emailJS installation documentation)
+![alt text](assets/images/testing/contactValidatorThree.png "contact.html 3")
+
+#### jigsaw.w3.org/css-validator (CSS)
+##### style.css
+* The style.css file contains no errors when put through a code validator
+![alt text](assets/images/testing/styleValidator.png "style.css")
+
+#### JSHint (Javascript)
+##### main.js
+* The main.js file contains a number of warnings
+![alt text](assets/images/testing/mainError.png "main.js 1")
+* The code was amended and retested
+![alt text](assets/images/testing/mainRetest.png "main.js 2")
+
+##### index.js
+* The index.js file contains no errors when put through a code validator
+![alt text](assets/images/testing/index.png "index.js")
+
+##### aircraft.js
+* The aircraft.js file contains no errors when put through a code validator
+![alt text](assets/images/testing/aircraft.png "aircraft.js")
+
+##### quiz.js
+* The quiz.js file contains a single warning when initially put through the validator
+![alt text](assets/images/testing/quizError.png "quiz.js 1")
+* the quiz.js file was amended and retested
+![alt text](assets/images/testing/quizRetest.png "quiz.js 2")
+
+##### contact.js
+* The contact.js file contains a number of warnings when initially put through the validator
+![alt text](assets/images/testing/contactError.png "contact.js")
+* The contact.js file was amended and retested
+![alt text](assets/images/testing/contactRetest.png "contact.js")
