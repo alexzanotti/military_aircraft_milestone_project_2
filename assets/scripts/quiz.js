@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 $(document).ready(function() {
     // set the inital score to zero when the user begins the quiz
     let score = 0;

@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 //function to ensure all fields are complete before sending email
 (function() {
     $('form').keyup(function() {

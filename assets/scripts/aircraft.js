@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 // Function to display information for the various aircraft depending on what button the user selects 
 function aircraft(evt, aircraftSpec) {
     var i, aircraftFacts, aircraftFactsSelect;
