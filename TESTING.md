@@ -94,7 +94,29 @@ The testing procedure looks at testing each user story/functionality/interactivi
 - On the "Quiz" page of the website, the user is able to select the "submit" button, which will give them feedback on their score, to get an idea of how well they understand the content:
 ![alt text](assets/images/testing/userStorySix.png "Quiz Score")
 
+#### Functionality & Interactivity 
 
+The following screenshots demonstrate functionality (usability) and interactivity of the website:
+
+##### Header
+
+* Hovering over the fighter icon changes the color to green (and takes you to the "Home" page correctly)
+![alt text](assets/images/testing/functionality/headerIconHover.png "Header Icon Hover")
+* Hovering over each navigation item works correctly in changing the color to a lighter shade of grey
+![alt text](assets/images/testing/functionality/headerHomeHover.png "Header Home Hover")
+![alt text](assets/images/testing/functionality/headerAircraftHover.png "Header Aircraft Hover")
+![alt text](assets/images/testing/functionality/headerQuizHover.png "Header Quiz Hover")
+![alt text](assets/images/testing/functionality/headerContactHover.png "Header Contact Hover")
+* Clicking each navigation item then takes you to the relevant page correctly (and will be a white color to denote that you're on this page)
+![alt text](assets/images/testing/functionality/headerHomeClick.png "Header Home Click")
+![alt text](assets/images/testing/functionality/headerAircraftClick.png "Header Aircraft Click")
+![alt text](assets/images/testing/functionality/headerQuizClick.png "Header Quiz Click")
+![alt text](assets/images/testing/functionality/headerContactClick.png "Header Contact Click")
+* The Stealth Mode toggle allows you to switch between the standard color scheme to a black and green color screen for the majority of the page content
+* ![alt text](assets/images/testing/functionality/homeStealthMode.png "Home Page Stealth Mode")
+* ![alt text](assets/images/testing/functionality/aircraftStealthMode.png "Aircraft Page Stealth Mode")
+* ![alt text](assets/images/testing/functionality/quizStealthMode.png "Quiz Page Stealth Mode")
+* ![alt text](assets/images/testing/functionality/contactStealthMode.png "Contact Page Stealth Mode")
 
 ### Browser Testing
 
