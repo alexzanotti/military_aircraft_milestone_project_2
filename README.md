@@ -11,7 +11,7 @@ The target audience is anyone who wants to learn more about the best fighter air
 
 This website was made for the second of four milestone projects required to complete the diploma in software development program at The Code Institute.
 
-[Click Here to View the Website!]([https://alexzanotti.github.io/metallica_website_milestone_project_1/](https://alexzanotti.github.io/military_aircraft_milestone_project_2/))
+[Click Here to View the Website!](https://alexzanotti.github.io/military_aircraft_milestone_project_2/)
 
 # Value provided:
 1. Users are able to interact with the site in their particular way, to achieve their personal goals and derive answers to their specific questions.
