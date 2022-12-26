@@ -28,12 +28,5 @@ function sendEmail() {
     const serviceID = "service_ujlw0id";
     const templateID = "template_vmke7ek";
     // send the email
-      emailjs.send(serviceID, templateID, content)
-      .then(sent=>{
-          document.getElementById("userName").value = "";
-          document.getElementById("userEmail").value = "";
-          document.getElementById("userMessage").value = "";
-      });
-    // redirect the user to the home page upon submission of contact form
-    window.location.href="index.html";
+    emailjs.send(serviceID, templateID, content)
   }
