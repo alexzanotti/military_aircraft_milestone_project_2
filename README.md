@@ -13,6 +13,11 @@ This website was made for the second of four milestone projects required to comp
 
 [Click Here to View the Website!]([https://alexzanotti.github.io/metallica_website_milestone_project_1/](https://alexzanotti.github.io/military_aircraft_milestone_project_2/))
 
+# Value provided:
+1. Users are able to interact with the site in their particular way, to achieve their personal goals and derive answers to their specific questions.
+2. The site owner advances their own goals by providing this functionality, potentially by being a regular user themselves.
+3. The website is responsively designed, to make for a pleasant user experience.
+4. Value has been provided to satisfy the various user profiles/stories, as the website was structured around the user stories. For example, there is a user who wants to test their military aircraft knowledge, "I want to be able to test my newfound knowledge of the fighter aircraft". Value provided by the website to satisfy this user requirement is having a quiz page, where questions have been presented (derived from the "aircraft" page) and give feedback to the user once they've submitted their answer.
 
 # Project Requirements
 In order to pass this milstone project, the following requirements must be met:
@@ -75,3 +80,44 @@ In order to pass this milstone project, the following requirements must be met:
 ### User Story 6
 * As a user who wants to test their military aircraft knowledge, I want to be able to receive feedback on how well i understand the information about the aircraft
 ![alt text](assets/images/readme/userStorySix.png "User Story 6")
+
+## Development Planes
+
+### Strategy Plane
+The strategy incorporates the user story needs. This website will focus on the following target audience, divided into three main categories:
+
+* Are military aircraft enthusiasts
+* Are interested in learning more about fighter aircraft
+* Want to test their military aircraft knowledge
+
+#### Personality
+* Bright
+* Thoughtful
+* Diligent
+* Persistent
+* Rational
+
+#### Demographic
+* Age - 18-60
+* Gender - Male
+* Education - Some College
+
+### Scope Plane
+In scope for this project are the following requirements:
+
+* Images of the best fighter aircraft in the world.
+* Learn more about where the best fighter aircraft in the world are located.
+* Learn more about the performance of the fighter aircraft, such as the top speed, maxiumum altitude etc.
+* Be able to contact the admin of the site for any enquiries
+* Test knowledge of the fighter aircraft
+* Receive feedback on how well i understand the information about the fighter aircraft
+
+### Structure Plane
+The structure of the website will be as follows:
+* Home Page
+* Aircraft Page
+* Quiz Page
+* Contact Page
+
+### Skeleton Plane
+In order to complete the skeleton plane, wireframes were made using [Balsamiq](https://balsamiq.com/). 
