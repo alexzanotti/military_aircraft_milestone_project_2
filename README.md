@@ -266,3 +266,35 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 5. Under "Source" click the drop-down menu labelled "None" and select "Main".
 6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
 7. Scroll back down to the "Pages" section to retrieve the deployed link.
+
+# Credits
+
+## Content
+Content around the fighter aircraft were derived from Wikipedia
+
+## Media
+All images were sourced from either Wikipedia or through Google Images.
+
+## Code
+The developer consulted multiple sites in order to better understand the code they were trying to implement. 
+
+The following sites were used:
+* Code Institute
+* Youtube
+* Stack Overflow
+* W3Schools
+* Font Awesome
+* Bootstrap
+* EmailJS
+* Google Maps API
+* https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+* www.freeformatter.com
+* https://beautifier.io/
+* JSHint
+
+# Acknowledgements
+I would like to thank the Code Institute for providing the course content and guidance that has allowed me to build this website.
+
+I would also like to thank all parties within the credits section
+
+I would also like to thank my mentor, Seun, for their invaluable help and guidance throughout the project.
