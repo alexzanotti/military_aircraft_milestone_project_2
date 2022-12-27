@@ -27,7 +27,7 @@ In the refactor phase, you can begin thinking about how to improve your existing
 
 Manual testing has been seperated into 5 sub-categories:
 * User Story Validation
-* Functionality/Usability 
+* Functionality/Usability/Interactvity
 * Responsiveness
 * Browser testing
 * Lighthouse Report
@@ -35,8 +35,8 @@ Manual testing has been seperated into 5 sub-categories:
 #### User Story Validation
 The first type of testing completed is around validating that the user stories are met by the website. Against each user story, evidence has been provided to ensure that the user stories are validated.
 
-#### Functionality/Interactvity 
-Manual testing is the next section of testing, which ensures that the website functions correctly and all of the interactvity that has been built into the website is functioning correctly.
+#### Functionality/Usability/Interactvity 
+Manual testing is the next section of testing, which ensures that the website functions correctly, is useable and all of the interactvity that has been built into the website is functioning correctly.
 
 #### Responsiveness
 Responsiveness testing ensures that the responsive design of the website is working correctly.
@@ -47,11 +47,12 @@ Browser testing is the next type of testing - this ensures that the website func
 
 #### Lighthouse Report
 
-Finally, the last type of test is running a Lighthouse Report for each page of the website.
+The last type of manual test is running a Lighthouse Report for each page of the website.
 
 ### Automated Testing
 
 Automated testing looks at validating that the code itself is free from errors.
+
 #### validator.w3.org
 This tests the HTML code 
 #### jigsaw.w3.org/css-validator/
@@ -62,6 +63,8 @@ This tests the Javascript code
 ## Testing Procedure
 
 The testing procedure looks at testing each user story/functionality/interactivity etc. to ensure that what has been designed matches what has been built. To evidence the testing, screenshots have been provided.
+
+Automated testing leans on online validators to ensure that there are no errors within the code itself. If there are errors, they will be amended and then retested.
 
 ### Manual Testing
 
@@ -136,6 +139,16 @@ The following screenshots demonstrate functionality (usability) and interactivit
 * The buttons displayed will present data about the fighter aircraft held within the aircraft.js file
 ![alt text](assets/images/testing/functionality/aircraftButtonSelectOne.png "F22 Data Example")
 ![alt text](assets/images/testing/functionality/aircraftButtonSelectTwo.png "F35 Data Example")
+
+* The following errors were found when testing the image carousels for each aircraft - a F35 image was not linked correctly & 2 F22 images were pixelated
+![alt text](assets/images/testing/errors/errorLink.png "F35 Not Linked Correctly")
+![alt text](assets/images/testing/errors/errorPixelOne.png "F22 Image Pixelated 1")
+![alt text](assets/images/testing/errors/errorPixelOne.png "F22 Image Pixelated 2")
+* The F35 image was linked correctly and the 2 F22 images were replaced
+![alt text](assets/images/testing/errors/f35ImageFiveFix.png "F35 Now Linked Correctly")
+![alt text](assets/images/testing/errors/f22ImageOneFix.png "F22 Image Pixelated Fix 1")
+![alt text](assets/images/testing/errors/f22ImageTwoFix.png "F22 Image Pixelated Fix 2")
+
 
 ##### Quiz Page (excluding functionality already covered in the user story testing)
   
