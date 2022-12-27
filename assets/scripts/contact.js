@@ -8,6 +8,7 @@
                 empty = true;
             }
         });
+        //if statement to remove disabled attribute when form completed
         if (empty) {
             $('#register').attr('disabled', 'disabled');
         } else {

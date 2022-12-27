@@ -205,6 +205,7 @@ var mapContentData = [
 '<h1>Venezuela</h1><p>Aircraft that are active in this country:</p><ul><li>F-16 Fighting Falcon</li></ul>'
 ];
 
+// map and mapcontent variables
 var map;
 var mapContent;
 
