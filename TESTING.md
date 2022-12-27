@@ -126,6 +126,42 @@ The following screenshots demonstrate functionality (usability) and interactivit
 ![alt text](assets/images/testing/functionality/footerQuizHover.png "Footer Quiz Icon")
 ![alt text](assets/images/testing/functionality/footerContactHover.png "Footer Contact Icon")
 
+##### Home Page (excluding functionality already covered in the user story testing)
+
+* The unordered list bullet points are replaced by fighter aircraft icons that change color to green when hovering over the icon:
+![alt text](assets/images/testing/functionality/homeIconHover.png "Fighter Aircraft Icon")
+
+##### Aircraft Page (excluding functionality already covered in the user story testing)
+
+* The buttons displayed will present data about the fighter aircraft held within the aircraft.js file
+![alt text](assets/images/testing/functionality/aircraftButtonSelectOne.png "F22 Data Example")
+![alt text](assets/images/testing/functionality/aircraftButtonSelectTwo.png "F35 Data Example")
+
+##### Quiz Page (excluding functionality already covered in the user story testing)
+  
+* Upon answering a question, the user receives an alert to inform them of whether they answered correctly or incorrectly:
+![alt text](assets/images/testing/functionality/quizAnswerCorrectAlert.png "Correct Answer Alert")
+![alt text](assets/images/testing/functionality/quizAnswerIncorrectAlert.png "Incorrect Answer Alert")
+
+* The questions not selected will then no longer be visible and the answered question will change styling, depending on whether the answer was correct or incorrect:
+![alt text](assets/images/testing/functionality/quizAnswerCorrectColor.png "Correct Answer Color")
+![alt text](assets/images/testing/functionality/quizAnswerIncorrectColor.png "Incorrect Answer Color")
+
+* Upon pressing the "Submit" button, the users score will be displayed
+![alt text](assets/images/testing/functionality/quizSubmitButtonScore.png "Submit Button Score Displayed")
+
+* The user has a "Reset" button available, which will refresh the page, so they can re-take the quiz
+* The user has a "Learn More" button available, which will re-direct the user to the "Aircraft" page
+
+##### Contact Page (excluding functionality already covered in the user story testing)
+  
+* The "Contact" page form button will be disabled (more transparent color scheme) until the user has input a value within each of the fields
+![alt text](assets/images/testing/functionality/contactFormDisabled.png "Disabled Submit Button")
+* Now that all input fields are completed, the submit button will no longer be disabled (color will be opaque)
+![alt text](assets/images/testing/functionality/contactFormSubmit.png "Submit Button no longer disabled")
+* Upon submission of the contact form, the page will refresh and the form will be submitted to the admin team - this is verfied by the EmailJS email history and GMAIL inbox
+![alt text](assets/images/testing/functionality/emailJSVerify.png "EmailJS History Verification")
+![alt text](assets/images/testing/functionality/mailboxEmailVerify.png "Gmail Email Verification")
 
 
 ### Browser Testing
