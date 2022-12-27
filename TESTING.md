@@ -163,6 +163,59 @@ The following screenshots demonstrate functionality (usability) and interactivit
 ![alt text](assets/images/testing/functionality/emailJSVerify.png "EmailJS History Verification")
 ![alt text](assets/images/testing/functionality/mailboxEmailVerify.png "Gmail Email Verification")
 
+#### Header
+##### Large Screens
+* The header for larger screens displays the navbar inline and to the left hand side. The fighter aircraft icon is also to the left. The dark mode switch and label are on the right hand side of the navigation bar:
+![alt text](assets/images/testing/responsiveness/headerLarge.png "Header Large")
+##### Small Screens
+* Using bootstrap, a hamburger icon is used within the navigation bar - the dark mode label is not displayed:
+![alt text](assets/images/testing/responsiveness/headerSmall.png "Header Small")
+
+#### Footer
+##### Large Screens
+* The footer displays the about and site links inline:
+![alt text](assets/images/testing/responsiveness/footerLarge.png "Footer Large")
+##### Small Screens
+* Due to width constraints, the about text is stacked on top of the site links:
+![alt text](assets/images/testing/responsiveness/footerSmall.png "Footer Small")
+
+#### Home Page
+##### Large Screens
+* The width of the content is has about 2/3 of the screen:
+![alt text](assets/images/testing/responsiveness/homeLarge.png "Home Page Large")
+##### Small Screens
+* As the screen becomes smaller, content width relatively increases:
+![alt text](assets/images/testing/responsiveness/homeSmall.png "Home Page Small")
+
+#### Aircraft Page
+##### Large Screens
+* The width of the content is roughly 2/3 of the screen:
+![alt text](assets/images/testing/responsiveness/aircraftLarge.png "Aircraft Large")
+##### Small Screens
+* As the screen becomes smaller, content width relatively increases:
+![alt text](assets/images/testing/responsiveness/aircraftSmall.png "Aircraft Small")
+
+#### Quiz Page
+##### Large Screens
+* The width of the content is roughly 2/3 of the screen:
+![alt text](assets/images/testing/responsiveness/quizQuestionsLarge.png "Quiz Page Large")
+##### Small Screens
+* The buttons will be displayed in block for smaller screens:
+![alt text](assets/images/testing/responsiveness/quizQuestionsSmall.png "Quiz Page Small")
+##### Large Screens (Buttons)
+* For large screens, the buttons will be configured with the "reset" and "learn more" buttons inline
+![alt text](assets/images/testing/responsiveness/quizButtonsLarge.png "Quiz Page Buttons Large")
+##### Small Screens (Buttons)
+* For small screens, the buttons will be configured with the "reset" and "learn more" buttons in block display
+![alt text](assets/images/testing/responsiveness/quizButtonsSmall.png "Quiz Page Buttons Small")
+
+#### Contact Page
+##### Large Screens
+* The width of the content is roughly 2/3 of the screen:
+![alt text](assets/images/testing/responsiveness/contactLarge.png "Contact Page Large")
+##### Small Screens
+* The form width becomes relatively wider as the screen size decreases
+![alt text](assets/images/testing/responsiveness/contactSmall.png "Contact Page Small")
 
 ### Browser Testing
 
