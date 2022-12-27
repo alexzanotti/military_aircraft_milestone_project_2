@@ -69,30 +69,30 @@ The testing procedure looks at testing each user story/functionality/interactivi
 
 ##### As a Military Aircraft Enthusiast, I want to see images of the best fighter aircraft in the world.
 - Images are provided of each of the fighter aircraft on the "Home" page. The user are previous and next buttons to toggle between each image: 
-![alt text](assets/images/testing/userStoryOneOne.png "Home Page Image Carousel")
+![alt text](assets/images/testing/userStory/userStoryOneOne.png "Home Page Image Carousel")
 
 - Images are provided on the "Aircraft" page for each aircraft that is selected:
-![alt text](assets/images/testing/userStoryOneTwo.png "Aircraft Page Image Carousel")
+![alt text](assets/images/testing/userStory/userStoryOneTwo.png "Aircraft Page Image Carousel")
 
 ##### As a Military Aircraft Enthusiast, I want to learn more about where the best fighter aircraft in the world are located.
 - A Google Maps API is located on the "Home" page, which has markers set for each country that operates at least one of the six fighter aircraft within the site:
-![alt text](assets/images/testing/userStoryOneTwo.png "Google Maps API")
+![alt text](assets/images/testing/userStory/userStoryOneTwo.png "Google Maps API")
 
 ##### As a user interested in learning more about fighter aircraft, I want to have an understanding of the performance of the fighter aircraft, such as the top speed, maxiumum altitude etc.
 - For each buttons within the "Aircraft" page, there is a description and list of facts/figures for each fighter aircraft:
-![alt text](assets/images/testing/userStoryThree.png "Aircraft Information")
+![alt text](assets/images/testing/userStory/userStoryThree.png "Aircraft Information")
 
 ##### As a user interested in learning more about fighter aircraft, I want to be able to contact the websites "admin" team, in order to ask any further questions
 - There is a "Contact" page within the website, where the user is able to get in contact with the "admin" team, should they have any further questions:
-![alt text](assets/images/testing/userStoryFour.png "Contact Form")
+![alt text](assets/images/testing/userStory/userStoryFour.png "Contact Form")
 
 ##### As a user who wants to test their military aircraft knowledge, I want to be able to test my newfound knowledge of the fighter aircraft
 - On the "Quiz" page of the website, there are 12 questions that the user is able to answer, derived from information on the "Aircraft" page:
-![alt text](assets/images/testing/userStoryFive.png "Quiz Questions")
+![alt text](assets/images/testing/userStory/userStoryFive.png "Quiz Questions")
 
 ##### As a user who wants to test their military aircraft knowledge, I want to be able to receive feedback on how well i understand the information about the aircraft
 - On the "Quiz" page of the website, the user is able to select the "submit" button, which will give them feedback on their score, to get an idea of how well they understand the content:
-![alt text](assets/images/testing/userStorySix.png "Quiz Score")
+![alt text](assets/images/testing/userStory/userStorySix.png "Quiz Score")
 
 #### Functionality & Interactivity 
 
@@ -221,89 +221,86 @@ The following screenshots demonstrate functionality (usability) and interactivit
 
 #### Chrome
 * The Quiz page of the website is working correctly in Google Chrome
-![alt text](assets/images/testing/chromeQuiz.png "chrome")
+![alt text](assets/images/testing/browser/chromeQuiz.png "chrome")
 #### Firefox
 * The Quiz page of the website is working correctly in Firefox
-![alt text](assets/images/testing/firefoxQuiz.png "firefox")
+![alt text](assets/images/testing/browser/firefoxQuiz.png "firefox")
 #### Edge
 * The Quiz Members page of the website is working correctly in Edge
-![alt text](assets/images/testing/edgeQuiz.png "edge")
+![alt text](assets/images/testing/browser/edgeQuiz.png "edge")
 #### Safari
 * The Quiz page of the website is working correctly in Safari
-![alt text](assets/images/testing/safariQuiz.png "safari")
+![alt text](assets/images/testing/browser/safariQuiz.png "safari")
 
 ### Lighthouse Report
 
 #### Home Page
 * The Home page returned high scores in all areas of the lighthouse report, with the exception of the performance
-![alt text](assets/images/testing/indexLighthouse.png "home page lighthouse report")
+![alt text](assets/images/testing/lighthouse/indexLighthouse.png "home page lighthouse report")
 #### Aircraft Page
 * The Aircraft page returned high scores in the accessibility field of the lighthouse report, with the exception of the performance,best practice & SEO
-![alt text](assets/images/testing/aircraftLighthouse.png "aircraft page lighthouse report")
+![alt text](assets/images/testing/lighthouse/aircraftLighthouse.png "aircraft page lighthouse report")
 #### Quiz Page
 * The Quiz Members page returned high scores in the accessibility field of the lighthouse report, with the exception of the performance,best practice & SEO
-![alt text](assets/images/testing/quizLighthouse.png "quiz page lighthouse report")
+![alt text](assets/images/testing/lighthouse/quizLighthouse.png "quiz page lighthouse report")
 #### Contact Page
 * The Contact page returned high scores in the accessibility & best practice fields of the lighthouse report, with the exception of the performance & SEO
-![alt text](assets/images/testing/contactLighthouse.png "contact page lighthouse report")
-
-
-
+![alt text](assets/images/testing/lighthouse/contactLighthouse.png "contact page lighthouse report")
 
 ### Automated Testing
 
 #### validator.w3.org (HTML)
 ##### index.html
 * The index.html file contains no errors when put through a code validator
-![alt text](assets/images/testing/indexValidator.png "index.html")
+![alt text](assets/images/testing/automated/indexValidator.png "index.html")
 
 ##### aircraft.html
 * The aircraft.html file contains no errors when put through a code validator, however there are a number of warning due to empty headings (Javascript pulls through the HTML content)
-![alt text](assets/images/testing/aircraftValidatorOne.png "aircraft.html 1")
-![alt text](assets/images/testing/aircraftValidatorTwo.png "aircraft.html 2")
+![alt text](assets/images/testing/automated/aircraftValidatorOne.png "aircraft.html 1")
+![alt text](assets/images/testing/automated/aircraftValidatorTwo.png "aircraft.html 2")
 
 ##### quiz.html
 * The quiz.html file contains a number of errors when first put through the validator
-![alt text](assets/images/testing/quizValidatorOne.png "quiz.html 1")
-![alt text](assets/images/testing/quizValidatorTwo.png "quiz.html 2")
+![alt text](assets/images/testing/automated/quizValidatorOne.png "quiz.html 1")
+![alt text](assets/images/testing/automated/quizValidatorTwo.png "quiz.html 2")
 * The code was corrected and re-tested (only an empty header - Javascript pulls through HTML content)
-![alt text](assets/images/testing/quizValidatorThree.png "quiz.html 3")
+![alt text](assets/images/testing/automated/quizValidatorThree.png "quiz.html 3")
 
 ##### contact.html
 * The contact.html file contains a number of errors when first put through the validator
-![alt text](assets/images/testing/contactValidatorOne.png "contact.html 1")
-![alt text](assets/images/testing/contactValidatorTwo.png "contact.html 2")
+![alt text](assets/images/testing/automated/contactValidatorOne.png "contact.html 1")
+![alt text](assets/images/testing/automated/contactValidatorTwo.png "contact.html 2")
 * The code was corrected and re-tested - only the Javascript type fields remained as a warning (deferring on emailJS installation documentation)
-![alt text](assets/images/testing/contactValidatorThree.png "contact.html 3")
+![alt text](assets/images/testing/automated/contactValidatorThree.png "contact.html 3")
 
 #### jigsaw.w3.org/css-validator (CSS)
 ##### style.css
 * The style.css file contains no errors when put through a code validator
-![alt text](assets/images/testing/styleValidator.png "style.css")
+![alt text](assets/images/testing/automated/styleValidator.png "style.css")
 
 #### JSHint (Javascript)
 ##### main.js
 * The main.js file contains a number of warnings
-![alt text](assets/images/testing/mainError.png "main.js 1")
+![alt text](assets/images/testing/automated/mainError.png "main.js 1")
 * The code was amended and retested
-![alt text](assets/images/testing/mainRetest.png "main.js 2")
+![alt text](assets/images/testing/automated/mainRetest.png "main.js 2")
 
 ##### index.js
 * The index.js file contains no errors when put through a code validator
-![alt text](assets/images/testing/index.png "index.js")
+![alt text](assets/images/testing/automated/index.png "index.js")
 
 ##### aircraft.js
 * The aircraft.js file contains no errors when put through a code validator
-![alt text](assets/images/testing/aircraft.png "aircraft.js")
+![alt text](assets/images/testing/automated/aircraft.png "aircraft.js")
 
 ##### quiz.js
 * The quiz.js file contains a single warning when initially put through the validator
-![alt text](assets/images/testing/quizError.png "quiz.js 1")
+![alt text](assets/images/testing/automated/quizError.png "quiz.js 1")
 * the quiz.js file was amended and retested
-![alt text](assets/images/testing/quizRetest.png "quiz.js 2")
+![alt text](assets/images/testing/automated/quizRetest.png "quiz.js 2")
 
 ##### contact.js
 * The contact.js file contains a number of warnings when initially put through the validator
-![alt text](assets/images/testing/contactError.png "contact.js")
+![alt text](assets/images/testing/automated/contactError.png "contact.js")
 * The contact.js file was amended and retested
-![alt text](assets/images/testing/contactRetest.png "contact.js")
+![alt text](assets/images/testing/automated/contactRetest.png "contact.js")
